@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>*</pattern>
+	    <template>Hi there! I am your career advisor outsourced as a bot. I can
+	    help computer science students find the ideal career. Would you like to
+	    get started?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>WOULD YOU LIKE TO GET STARTED</that>
+        <template>Do you like creating or analyzing more?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>DO YOU LIKE CREATING OR ANALYZING MORE</that>
+        <template>Do you like creating or analyzing more?</template>
+    </category>
+    
+    <category>
+        <pattern>ANALYZING</pattern>
+        <that>DO YOU LIKE CREATING OR ANALYZING MORE</that>
+        <template>Do you like to code?</template>
+    </category>
+    
+    <category>
+        <pattern>* ANALYZING</pattern>
+        <that>DO YOU LIKE CREATING OR ANALYZING MORE</that>
+        <template>Do you like to code?</template>
+    </category>
+    
+    <category>
+        <pattern>ANALYZING *</pattern>
+        <that>DO YOU LIKE CREATING OR ANALYZING MORE</that>
+        <template>Do you like to code?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>DO YOU LIKE TO CODE</that>
+        <template>Do you like to code?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU LIKE TO CODE</that>
+        <template>You can consider becoming a data scientist. Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU LIKE TO CODE</that>
+        <template>You can consider becoming a business analyst. Have a great day!</template>
+    </category>
+
+    <category>
+        <pattern>CREATING</pattern>
+        <that>DO YOU LIKE CREATING OR ANALYZING MORE</that>
+        <template>Do you enjoy creating visuals and graphics?</template>
+    </category>
+    
+    <category>
+        <pattern>* CREATING</pattern>
+        <that>DO YOU LIKE CREATING OR ANALYZING MORE</that>
+        <template>Do you enjoy creating visuals and graphics?</template>
+    </category>
+    
+    <category>
+        <pattern>CREATING *</pattern>
+        <that>DO YOU LIKE CREATING OR ANALYZING MORE</that>
+        <template>Do you enjoy creating visuals and graphics?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>DO YOU ENJOY CREATING VISUALS AND GRAPHICS</that>
+        <template>Do you enjoy creating visuals and graphics?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY CREATING VISUALS AND GRAPHICS</that>
+        <template>You can consider becoming a web developer. Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY CREATING VISUALS AND GRAPHICS</that>
+        <template>Do you want to build software or computers?</template>
+    </category>
+    
+    <category>
+        <pattern>*</pattern>
+        <that>DO YOU WANT TO BUILD SOFTWARE OR COMPUTERS</that>
+        <template>Do you want to build software or computers?</template>
+    </category>
+    
+    <category>
+        <pattern>SOFTWARE</pattern>
+        <that>DO YOU WANT TO BUILD SOFTWARE OR COMPUTERS</that>
+        <template>You can consider becoming a software developer. Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>* SOFTWARE</pattern>
+        <that>DO YOU WANT TO BUILD SOFTWARE OR COMPUTERS</that>
+        <template>You can consider becoming a software developer. Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>SOFTWARE *</pattern>
+        <that>DO YOU WANT TO BUILD SOFTWARE OR COMPUTERS</that>
+        <template>You can consider becoming a software developer. Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>COMPUTERS</pattern>
+        <that>DO YOU WANT TO BUILD SOFTWARE OR COMPUTERS</that>
+        <template>You can consider becoming a computer scientist. Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>* COMPUTERS</pattern>
+        <that>DO YOU WANT TO BUILD SOFTWARE OR COMPUTERS</that>
+        <template>You can consider becoming a computer scientist. Have a great day!</template>
+    </category>
+    
+    <category>
+        <pattern>COMPUTERS *</pattern>
+        <that>DO YOU WANT TO BUILD SOFTWARE OR COMPUTERS</that>
+        <template>You can consider becoming a computer scientist. Have a great day!</template>
+    </category>
+</aiml>
